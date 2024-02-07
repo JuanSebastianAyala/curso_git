@@ -1,1 +1,197 @@
-fggdfffdgfd estas son modificaciones
+Microsoft Windows [Versión 10.0.19045.3930]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\ASUS i5>cd C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>cd
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>cd .\Example.txt\
+El nombre del directorio no es válido.
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git add *
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git commit -am "commit"
+[master 1d54908] commit
+ 1 file changed, 1 insertion(+)
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git commit -am "commit"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>cd .\Example.txt\
+El nombre del directorio no es válido.
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>cd .\Example.txt\
+El nombre del directorio no es válido.
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>cd . \Example.txt\
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>cd .\Example.txt\
+El nombre del directorio no es válido.
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>cd .\Example.txt\
+El nombre del directorio no es válido.
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git show
+commit 1d549085e2a5b9cec75ac547d5be57b91c32cf9b (HEAD -> master)
+Author: Sebastian <sebastian.a.ayala@hotmail.com>
+Date:   Wed Jan 31 23:34:21 2024 -0500
+
+    commit
+
+diff --git a/Proyecto_Sesion2/Example.txt b/Proyecto_Sesion2/Example.txt
+index e69de29..a2862a5 100644
+--- a/Proyecto_Sesion2/Example.txt
++++ b/Proyecto_Sesion2/Example.txt
+@@ -0,0 +1 @@
++fggdfffdgfd
+\ No newline at end of file
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>explorer.exe .
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git commit -m
+error: switch `m' requires a value
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git commit -m
+error: switch `m' requires a value
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git commit -m "Mofified Example.txt"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git commit -m "Mofified Example.txt"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git log
+commit 1d549085e2a5b9cec75ac547d5be57b91c32cf9b (HEAD -> master)
+Author: Sebastian <sebastian.a.ayala@hotmail.com>
+Date:   Wed Jan 31 23:34:21 2024 -0500
+
+    commit
+
+commit d8a3b97c062fe974a1c1f61ae578aa0da1dd3c4a
+Author: Sebastian <sebastian.a.ayala@hotmail.com>
+Date:   Wed Jan 31 23:09:35 2024 -0500
+
+    Example
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git diff 1d549085e2a5b9cec75ac547d5be57b91c32cf9b d8a3b97c062fe974a1c1f61ae578aa0da1dd3c4a
+diff --git a/Proyecto_Sesion2/Example.txt b/Proyecto_Sesion2/Example.txt
+index a2862a5..e69de29 100644
+--- a/Proyecto_Sesion2/Example.txt
++++ b/Proyecto_Sesion2/Example.txt
+@@ -1 +0,0 @@
+-fggdfffdgfd
+\ No newline at end of file
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git log
+commit 1d549085e2a5b9cec75ac547d5be57b91c32cf9b (HEAD -> master)
+Author: Sebastian <sebastian.a.ayala@hotmail.com>
+Date:   Wed Jan 31 23:34:21 2024 -0500
+
+    commit
+
+commit d8a3b97c062fe974a1c1f61ae578aa0da1dd3c4a
+Author: Sebastian <sebastian.a.ayala@hotmail.com>
+Date:   Wed Jan 31 23:09:35 2024 -0500
+
+    Example
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git 1d549085e2a5b9cec75ac547d5be57b91c32cf9b d8a3b97c062fe974a1c1f61ae578aa0da1dd3c4a
+git: '1d549085e2a5b9cec75ac547d5be57b91c32cf9b' is not a git command. See 'git --help'.
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git diff 1d549085e2a5b9cec75ac547d5be57b91c32cf9b d8a3b97c062fe974a1c1f61ae578aa0da1dd3c4a
+diff --git a/Proyecto_Sesion2/Example.txt b/Proyecto_Sesion2/Example.txt
+index a2862a5..e69de29 100644
+--- a/Proyecto_Sesion2/Example.txt
++++ b/Proyecto_Sesion2/Example.txt
+@@ -1 +0,0 @@
+-fggdfffdgfd
+\ No newline at end of file
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git show
+commit 1d549085e2a5b9cec75ac547d5be57b91c32cf9b (HEAD -> master)
+Author: Sebastian <sebastian.a.ayala@hotmail.com>
+Date:   Wed Jan 31 23:34:21 2024 -0500
+
+    commit
+
+diff --git a/Proyecto_Sesion2/Example.txt b/Proyecto_Sesion2/Example.txt
+index e69de29..a2862a5 100644
+--- a/Proyecto_Sesion2/Example.txt
++++ b/Proyecto_Sesion2/Example.txt
+@@ -0,0 +1 @@
++fggdfffdgfd
+\ No newline at end of file
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git commit -am "modi2"
+[master d7fd479] modi2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git show
+commit d7fd4791224fa7b7756ecd0f125f548989be59a1 (HEAD -> master)
+Author: Sebastian <sebastian.a.ayala@hotmail.com>
+Date:   Thu Feb 1 00:20:02 2024 -0500
+
+    modi2
+
+diff --git a/Proyecto_Sesion2/Example.txt b/Proyecto_Sesion2/Example.txt
+index a2862a5..1dfad7f 100644
+--- a/Proyecto_Sesion2/Example.txt
++++ b/Proyecto_Sesion2/Example.txt
+@@ -1 +1 @@
+-fggdfffdgfd
+\ No newline at end of file
++fggdfffdgfd estas son modificaciones
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git log
+commit d7fd4791224fa7b7756ecd0f125f548989be59a1 (HEAD -> master)
+Author: Sebastian <sebastian.a.ayala@hotmail.com>
+Date:   Thu Feb 1 00:20:02 2024 -0500
+
+    modi2
+
+commit 1d549085e2a5b9cec75ac547d5be57b91c32cf9b
+Author: Sebastian <sebastian.a.ayala@hotmail.com>
+Date:   Wed Jan 31 23:34:21 2024 -0500
+
+    commit
+
+commit d8a3b97c062fe974a1c1f61ae578aa0da1dd3c4a
+Author: Sebastian <sebastian.a.ayala@hotmail.com>
+Date:   Wed Jan 31 23:09:35 2024 -0500
+
+    Example
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git diff d7fd4791224fa7b7756ecd0f125f548989be59a1 d8a3b97c062fe974a1c1f61ae578aa0da1dd3c4a
+diff --git a/Proyecto_Sesion2/Example.txt b/Proyecto_Sesion2/Example.txt
+index 1dfad7f..e69de29 100644
+--- a/Proyecto_Sesion2/Example.txt
++++ b/Proyecto_Sesion2/Example.txt
+@@ -1 +0,0 @@
+-fggdfffdgfd estas son modificaciones
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git add *
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git commit -am "modi42"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>git commit -am "Example.txt"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>Example.txt
+
+C:\Users\ASUS i5\Documents\Cursos\Python_Geofísica\Proyecto_Sesion2>
