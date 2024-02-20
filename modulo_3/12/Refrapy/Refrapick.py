@@ -24,7 +24,7 @@ class Refrapick(Tk):
     def __init__(self):
         
         super().__init__()
-        self.geometry("1200x650")
+        self.geometry("1366x650")
         self.title('Refrapy - Refrapick v2.0.0')
         self.configure(bg = "#F0F0F0")
         self.resizable(0,0)
@@ -891,7 +891,7 @@ class Refrapick(Tk):
                         
                     frame = Frame(self)
                     frame.grid(row = 1, column = 0, sticky = "WE")
-                    fig = plt.figure(figsize = (15.9,8.1))
+                    fig = plt.figure(figsize = (8, 4.5))
                     canvas = FigureCanvasTkAgg(fig, frame)
                     canvas.draw()
                     toolbar = NavigationToolbar2Tk(canvas, frame)
@@ -997,7 +997,7 @@ E-mail: vjs279@hotmail.com
 
             frame = Frame(surveyWindow, width=20, height=20)
             frame.grid(row = 0, column = 0)
-            fig = plt.figure(figsize = (14.2,8.62))
+            fig = plt.figure(figsize = (8, 4.5))
             canvas = FigureCanvasTkAgg(fig, frame)
             canvas.draw()
             toolbar = NavigationToolbar2Tk(canvas, frame)
@@ -1726,7 +1726,7 @@ E-mail: vjs279@hotmail.com
 
                 frame = Frame(ttWindow, width=20, height=20)
                 frame.grid(row = 0, column = 0)
-                fig = plt.figure(figsize = (14.2,8.62))
+                fig = plt.figure(figsize = (8, 4.5))
                 canvas = FigureCanvasTkAgg(fig, frame)
                 canvas.draw()
                 toolbar = NavigationToolbar2Tk(canvas, frame)
